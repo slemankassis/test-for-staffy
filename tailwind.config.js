@@ -4,23 +4,27 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "custom-gray": "#252525",
-        "gray-500": "#B1B1B1",
-        "gray-300": "#E5E5E5",
-        "blue-600": "#2564C5",
+        base: "#000000D9",
+        secondary: "#0589A6",
+        background: "#F0F0F0",
       },
-      borderRadius: {
-        DEFAULT: "3px",
-      },
+      borderRadius: {},
       fontFamily: {
-        roboto: ["Roboto", "sans-serif"],
+        avenir: ["avenir", "sans-serif"],
+        stix: ["STIX Two Text", "sans-serif"],
       },
       fontSize: {
-        base: "18px",
+        base: "20px",
         xl: "24px",
       },
       fontWeight: {
-        normal: 400,
+        normal: 800,
+      },
+      lineHeight: {
+        base: "25px",
+        xl: "30px",
+        titleBase: "54px",
+        titleXl: "100px",
       },
     },
   },
