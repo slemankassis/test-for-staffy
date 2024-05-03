@@ -1,0 +1,39 @@
+/* styles/globals.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "avenir";
+  src:
+    url("../../public/fonts/avenirltstd-heavy-webfont.woff2") format("woff2"),
+    url("../../public/fonts/avenirltstd-heavy-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "avenir";
+  src:
+    url("../../public/fonts/avenirltstd-roman-webfont.woff2") format("woff2"),
+    url("../../public/fonts/avenirltstd-roman-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "stix";
+  src:
+    url("../../public/fonts/stixtwotext-variablefont_wght-webfont.woff2") format("woff2"),
+    url("../../public/fonts/stixtwotext-variablefont_wght-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
